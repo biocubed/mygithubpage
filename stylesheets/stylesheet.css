@@ -58,6 +58,20 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/*#nav {
+	line-height:30px;
+	background-color = #eeeeee;
+	display: inline-block;
+	height: 300px;
+	width: 100px;
+	/*position:relative;*/
+	/*float:left;* /
+	text-align:right;
+	padding:5px;
+} */
+
+
+
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
@@ -262,12 +276,32 @@ Full-Width Styles
   width: 100%;
 }
 
+.inner1 {
+ 	/* display: -moz-inline-stack; */
+	display: inline-block;
+	/* position:relative; */
+	max-width: 540px;
+	/*padding: 20px 10px;*/
+	margin: 1 em;
+}
+
 .inner {
   position: relative;
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
 }
+
+.iSidebar {
+	/*position: relative; */
+	/*display: -moz-inline-stack; */
+  	/*display: inline-block; */
+	position: fixed;
+	margin: 10px;
+	text-align:right;
+	vertical-align:top;
+}
+
 
 #forkme_banner {
   display: block;
