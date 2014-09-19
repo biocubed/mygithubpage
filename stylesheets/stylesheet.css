@@ -276,14 +276,6 @@ Full-Width Styles
   width: 100%;
 }
 
-.inner1 {
- 	/* display: -moz-inline-stack; */
-	display: inline-block;
-	/* position:relative; */
-	max-width: 540px;
-	/*padding: 20px 10px;*/
-	margin: 1 em;
-}
 
 .inner {
   position: relative;
@@ -292,14 +284,10 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-.iSidebar {
-	/*position: relative; */
-	/*display: -moz-inline-stack; */
-  	/*display: inline-block; */
-	position: fixed;
-	margin: 10px;
-	text-align:right;
-	vertical-align:top;
+#navlinks{
+
+
+
 }
 
 
