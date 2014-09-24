@@ -4,11 +4,62 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Russell C Jackson : Russell Jackson&#39;s Professional Website">
+    <meta name="description" content="Russell C Jackson : Media">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/gallery.css">
     <title>Russell C Jackson</title>
+<style>
+    /* Prevent the slideshow from flashing on load */
+    #slides {
+      display: none
+    }
+
+    /* Center the slideshow */
+    .container {
+      margin: 0 auto
+    }
+
+    /* Show active item in the pagination */
+    .slidesjs-pagination .active {
+      color:red;
+    }
+
+    /* Media quires for a responsive layout */
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+  </style>
+  <!-- SlidesJS Required: -->
 
   </head>
 
@@ -47,7 +98,52 @@
         <h3>
 <a name="The multimedia gallery is under construction" class="anchor" href="#Multimedia"><span class="octicon octicon-link"></span></a>The media gallery is under construction</h3>
 
+<script type="text/javascript" src="http://www.linkbuildingservices4sites.com/resources/slide-show.js"></script>   
 
+<div id="imageslideshow1"></div> 
+
+<div class="container">
+    <div id="slides">
+      <div class="slide">
+      <img src="images/galleryImages/imgGallery-1.JPG" alt="Photo by: Russell Jackson">
+      <div class="caption"><p>A picture of some thread!</p></div>
+      </div>
+      <div class="slide">
+      <img src="images/galleryImages/imgGallery-2.JPG" alt="Photo by: Russell Jackson">
+      <div class="caption"><p>A picture of more thread!</p></div>
+      </div>
+    </div>
+  </div>
+
+<!--more info at SlidesJS.com -->
+<!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="javascripts/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 400
+          }
+        }
+      });
+    });
+  </script>
 
 <p>Please contact the site owner (Russell Jackson) regarding any questions or concerns.</p>
 
