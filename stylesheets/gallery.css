@@ -1,14 +1,14 @@
 .caption {
   z-index:500;
   display:block!important;
-  position:absolute;
+  position: relative;
+  max-width: 640px;
   bottom:-25px;
-  left:0;
+  left:0px;
   height:30px;
-  padding:100px 100px 100px 100px;
+  padding:0px 0px 0px 0px;
   background:#000;
   background:rgba(0,0,0,.5);
-  width:540px;
   font-size:1.3em;
   line-height:1.33;
   color:#fff;
