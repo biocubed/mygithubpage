@@ -1,11 +1,11 @@
 .caption {
   z-index:500;
-  display:block!important;
-  position: relative;
+  display:block; /*!important*/
+  position: inherit;
   max-width: 640px;
-  bottom:-25px;
+  bottom:0px;
   left:0px;
-  height:30px;
+  height:0px;
   padding:0px 0px 0px 0px;
   background:#000;
   background:rgba(0,0,0,.5);
@@ -14,4 +14,19 @@
   color:#fff;
   border-top:1px solid #000;
   text-shadow:none;
+}
+
+img {
+  position: inherit;
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 5px;
+  margin: 0px 0 0px 0;
+  border: 1px solid #ebebeb;
+
+  box-shadow: 0 0 5px #ebebeb;
+  -webkit-box-shadow: 0 0 5px #ebebeb;
+  -moz-box-shadow: 0 0 5px #ebebeb;
+  -o-box-shadow: 0 0 5px #ebebeb;
+  -ms-box-shadow: 0 0 5px #ebebeb;
 }

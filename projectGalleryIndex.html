@@ -8,18 +8,18 @@
 
  
     
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/gExample.css">
+<!--<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/gExample.css">-->
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/gallery.css">
     <title>Russell C Jackson</title>
 
- <style>
-  <!-- body {
+<style>
+  /* body {
       -webkit-font-smoothing: antialiased;
       font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #232525;
       padding-top:70px;
-    } -->
+    } */
 
    #slides {
       display: none
@@ -122,7 +122,8 @@
 
     .navbar {
       overflow: hidden
-    }
+    } 
+}
   </style>
   <!-- End SlidesJS Optional-->
 <style>
@@ -130,11 +131,12 @@
     #slides {
       display: none
     }
-
+    
     /* Center the slideshow */
     .container {
       margin: 0 auto
     }
+
 
     /* Show active item in the pagination */
     .slidesjs-pagination .active {
@@ -164,18 +166,17 @@
     /* For smaller displays like laptops */
     @media (min-width: 768px) and (max-width: 979px) {
       .container {
-        width: 640px
+        width: 724px
       }
     }
 
     /* For larger displays */
     @media (min-width: 1200px) {
       .container {
-        max-width: 640px
+        width: 850px
       }
     }
   </style>
-  <!-- SlidesJS Required: -->
 
   </head>
   <body>
@@ -197,16 +198,13 @@
 		  </nav>
 		  </section>
 
-         <!--  <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/biocubed/mygithubpage/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/biocubed/mygithubpage/tarball/master">Download this project as a tar.gz file</a>
-			  </section> -->
         </header> 
     </div>
 
 
 
 <!-- MAIN CONTENT -->
+<!--http://webdesignledger.com/tutorials/13-super-useful-jquery-content-slider-scripts-and-tutorials-->
 <div id="main_content_wrap" class="outer">
 		
 <section id="main_content" class="inner"> 
@@ -232,7 +230,8 @@
 
 <!--more info at SlidesJS.com -->
 <!-- SlidesJS Required: Link to jQuery -->
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
   <!-- End SlidesJS Required -->
 
   <!-- SlidesJS Required: Link to jquery.slides.js -->
@@ -240,11 +239,11 @@
   <!-- End SlidesJS Required -->
 
   <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
-  <script>
+<script>
     $(function() {
       $('#slides').slidesjs({
-        width: 940,
-        height: 528,
+        width: 640,
+        height: 480,
         navigation: {
 	  active: true,
           effect: "fade"
@@ -252,7 +251,7 @@
         pagination: {
           active: true,
           effect: "fade"
-        },
+       },
         effect: {
           fade: {
           speed: 1000,
