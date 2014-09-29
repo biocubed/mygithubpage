@@ -166,14 +166,14 @@
     /* For smaller displays like laptops */
     @media (min-width: 768px) and (max-width: 979px) {
       .container {
-        width: 724px
+        max-width: 640px
       }
     }
 
     /* For larger displays */
     @media (min-width: 1200px) {
       .container {
-        width: 850px
+        max-width: 640px
       }
     }
   </style>
@@ -243,7 +243,7 @@
     $(function() {
       $('#slides').slidesjs({
         width: 640,
-        height: 480,
+        height: 540,
         navigation: {
 	  active: true,
           effect: "fade"
