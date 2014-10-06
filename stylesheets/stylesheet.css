@@ -295,6 +295,13 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+.innerTop {
+  position: relative;
+  max-width: 640px;
+  padding: 00px 00px;
+  margin: 0 auto;
+}
+
 #navlinks{
 
 
