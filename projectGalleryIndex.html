@@ -219,19 +219,19 @@
     <div id="slides">
       <div class="slide">
       <img src="images/galleryImages/fullSurgeryStation.png" alt="Photo by: Russell Jackson">
-      <div class="caption"><p>This is the complete multiple robot surgical test platform.</p></div>
+      <div class="caption"><div class="captionText"><p>This is the complete multiple robot surgical test platform that is used in robotic surgical research. This includes integrating needle path planning with needle driving and surgical knot tying.</p></div></div>
       </div>
       <div class="slide">
       <img src="images/galleryImages/abb140Image.png" alt="Photo by: Russell Jackson">
-      <div class="caption"><p>The orange robot is an industrial assembly arm built by ABB.</p></div>
-      </div>
+      <div class="caption"><div class="captionText"><p>The orange robot is an industrial assembly arm built by ABB that acts as a needle gripper and manipulator.</p></div>
+  </div></div>
       <div class="slide">
       <img src="images/galleryImages/xyStage.png" alt="Photo by: Russell Jackson">
-      <div class="caption"><p>This linear XY-Stage is used to move the thread around while it is tracked by a stereo camera pair.</p></div>
-      </div>
+      <div class="caption"><div class="captionText"><p>This linear XY-stage moves the thread around while it is tracked by a stereo camera pair. </p></div>
+  </div></div>
       <div class="slide">
       <img src="images/galleryImages/stereoCamera.png" alt="Photo by: Russell Jackson">
-      <div class="caption"><p>This is an example of a stereo camera system used to track surgical elements.</p></div>
+      <div class="caption"><div class="captionText"><p>Stereo camera systems including the one above are constructed and calibrated to allow the robots to track and manipulate surgical elements.</p></div></div>
       </div>
     </div>
   </div>
@@ -243,7 +243,7 @@
   <!-- End SlidesJS Required -->
 
   <!-- SlidesJS Required: Link to jquery.slides.js -->
-  <script src="javascripts/jquery.slides.min.js"></script>
+  <script src="javascripts/jquery.slides.js"></script>
   <!-- End SlidesJS Required -->
 
   <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
@@ -251,7 +251,7 @@
     $(function() {
       $('#slides').slidesjs({
         width: 640,
-        height: 560,
+        height: 600,
         navigation: {
 	  active: true,
           effect: "fade"
@@ -269,7 +269,7 @@
 	play: {
 	   active: true,
 	   effect: "fade",
-           interval: 3500,
+           interval: 10000,
            auto: true,
            swap: true
         }

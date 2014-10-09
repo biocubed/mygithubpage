@@ -1,16 +1,33 @@
 .caption {
   z-index:500;
   display:block; /*!important*/
-  position: static;
+  position: relative; /*static*/
   max-width: 640px;
+  height: 120px;
   /*padding:5px; */
   background:#000;
   background:rgba(0,0,0,.5);
   font-size:1.3em;
+  text-align: center;
   line-height:1.33;
   color:#fff;
   border-top:1px solid #000;
   text-shadow:none;
+}
+
+.captionText{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    max-width: 640px;
+    height:120px;
+    display: table;
+}
+
+.captionText p {
+    display: table-cell;
+    vertical-align:middle;
+    text-align: center;
 }
 
 img {
